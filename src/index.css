@@ -1,13 +1,141 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	margin: 0px;
+   	padding: 0px;
+	background-image: url('https://img.freepik.com/free-vector/white-abstract-background_23-2148817571.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	backdrop-filter: blur(5px);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Header {
+	background: none;
+	background-color: #D41C2C;
+  	height: 20%;
+	width: 95%;
+	display: flex;
+  	color: rgb(255, 255, 255);
+	padding-bottom: 1%;
+	padding-right: 5%;
+	border-bottom: 10px solid #FCCC44;
 }
+
+.Header h1 {
+	background: none;
+	margin-left: 4%;
+	margin-top: 1%;
+	font-family: serif;
+}
+
+.header-right {
+	background: none;
+	margin-top: 1%;
+	width: max-content;
+	justify-content: flex-end;
+	align-self: center;
+	margin-left: 50%;
+	text-align: center;
+	/* top: 50%; */
+	font-family: serif;
+}
+
+.header-right a {
+	background: none;
+	font-size: large;
+	margin-left: 24%;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+.header-right a:hover {
+	color: #FCCC44;
+}
+
+.title {
+	margin-top: 1%;
+	margin-left: 4%;
+	font-family: serif;
+}
+
+.title h1 {
+	font-size: 2.5em;
+	text-underline-offset: 0.2em;
+	text-decoration-line: underline;
+	text-decoration-color: #FCCC44;
+}
+
+.input {
+	display: flex;
+	margin-top: 1%;
+	font-family: serif;
+}
+
+.file-upload {
+	margin-top: 1%;
+	margin-left: 10%;
+	margin-right: 4%;
+	margin-bottom: 5%;
+	width: 40%;
+	font-family: serif;
+}
+
+.dropzone {
+	transition: border;
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 10%;
+	width: 80%;
+	height: 50%;
+	border: 3px dashed #D41C2C;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dropzone:hover {
+	border: 3px solid #D41C2C;
+	cursor: pointer;
+}
+
+.scenario {
+	display: inline;
+	/* position: absolute; */
+	align-items: center;
+	margin-top: 1%;
+	margin-left: 0%;
+	/* margin-right: 8%; */
+	font-family: serif;
+}
+
+.scenario h2 {
+	text-align: center;
+	font-size: xx-large;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	text-underline-offset: 0.1em;
+	text-decoration-line: underline;
+	text-decoration-color: #FCCC44;
+}
+
+.scenario h3 {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+/* .box input{
+	display: inline;
+	margin-top: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	width: 90%;
+	height: 50%;
+	border: 3px solid #D41C2C;
+	border-radius: 5px;
+} */
